@@ -1,0 +1,136 @@
+/* exercise 1 */
+
+.flex-container{
+    height: 200px;
+    display: flex;
+}
+.flex-item{
+    margin: 10px;
+    background-color: #6495ED;
+    flex-grow: 1;
+}
+
+.flex-container-2{
+    height: 200px;
+    display: flex;
+}
+.flex-item-2{
+    margin: 10px;
+    background-color: #FF6347;
+    flex-grow: 1;
+}
+
+.flex-item-2.middle{
+    margin: 10px;
+    background-color: #FF6347;
+    flex-grow: 2;
+}
+
+.flex-container-3{
+    height: 200px;
+    display: flex;
+}
+.flex-item-3{
+    margin: 10px;
+    background-color: mediumpurple;
+    flex-grow: 2;
+}
+
+.flex-item-3.middle{
+    margin: 10px;
+    background-color: mediumpurple;
+    flex-grow: 1;
+}
+
+.flex-container-4{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item-4{
+    margin: 10px;
+    background-color: mediumaquamarine;
+    width: 33.333%;
+   
+}
+
+.flex-container-5{
+    height: 200px;
+    display: flex;
+}
+.flex-item-5{
+    margin: 10px;
+    background-color: goldenrod;
+    width: 25%;
+}
+
+.flex-item-5.right{
+    margin: 10px 10px 10px auto;
+    background-color: goldenrod;
+    width: 25%;
+}
+
+
+/* exercise 2 */
+
+.exercise-2{
+    background-color: black;
+}
+
+.flex-container6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.flex-item6{
+    color: white;
+}
+
+
+/* exercise 3 */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container7{
+    display: flex;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.flex-item7{
+    background-color: #ccc;
+    flex-grow: 1;
+    
+}
+
+.flex-container8{
+    min-height: 60vh;
+    display: flex;
+}
+.flex-item8{
+    background-color: #ccc;
+    margin: 10px 20px 10px 20px;
+    width: 200px;
+}
+
+.flex-item8.middle{
+    background-color: #eee;
+    flex-grow: 1;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex-container9{
+    display: flex;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.flex-item9{
+    background-color: #ccc;
+    flex-grow: 1;
+}
